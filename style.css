@@ -1,0 +1,228 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    background-color: black;
+    color: #fff;
+    padding-inline: 1.2rem
+}
+
+/* one */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-block: 1rem;
+}
+
+header img{
+    width: 9%;
+}
+header h1{
+    font-size: 1rem;
+    margin-left: 2.6rem;
+}
+
+header ul{
+    display: flex;
+}
+header ul li{
+    list-style: none;
+    margin-right: 0.5rem;
+}
+/* two */
+main{
+    background-color: rgb(17, 19, 18);
+    text-align: center;
+    padding: 1rem;
+    border-radius: 7px;
+}
+main .anchor{
+    display: flex;
+    justify-content: space-between;
+}
+main a{
+    text-decoration: none;
+    border: 1px solid ;
+    padding: 0.4rem 1.6rem;
+    border-radius: 0.7rem;
+    color: #fff;
+    font-size: 0.8rem;
+}
+main a:hover{
+    cursor: pointer;
+}
+
+main a:focus{
+    background-color: rgba(102, 100, 100, 0.863);
+}
+
+.anchor + p{
+    color: rgba(240, 248, 255, 0.5);
+    margin-top: 1rem;
+
+}
+
+.fa-eye{
+    margin-left: 0.5rem;
+}
+
+.dollar{
+    font-size: 2rem;
+    margin: 0 0 1.2rem 0;
+}
+
+.menu ul{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 0;
+    margin: 2rem 0 0.5rem 0;
+}
+
+.menu ul li{
+    list-style: none;
+    background-color: black;
+    border: 1px solid #dacccc69;
+    padding: 0.3rem 0.6rem;
+    font-size: 0.8rem;
+    border-radius: 5px;
+}
+/* three */
+aside{
+    background-color: rgb(17, 19, 18);
+    margin-block: 1rem;
+    padding: 0.8rem 0.3rem;
+    border-radius: 5px;
+}
+aside ul{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0;
+    align-items: center;
+    font-size: x-small;
+}
+
+aside ul li{
+    list-style: none;
+    
+}
+
+
+aside ul li a{
+    text-decoration: none;
+    color: #dacccc69;
+
+}
+
+aside ul li a:hover{
+    color: #fff;
+    background-color: rgb(65, 63, 63);
+    padding: 0.4rem 1.3rem;
+    border-radius: 5px;
+}
+/* four */
+section{
+    background-color: rgb(19, 18, 18);
+    border-radius: 0.5rem;
+}
+.first{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #dacccc69;
+    padding-inline: 0.7rem;
+    padding-block: 0.7rem;
+}
+
+.first p{
+    color: #ffffffb2;
+}
+table{
+    width: 100%;
+    
+}
+
+
+table tr td img{
+    width: 30px;
+    height: 30px;
+    background-color: #dacccc69;
+    border-radius: 100%;
+    padding: 5px;
+    
+}
+table tr td:nth-child(2){
+    text-align: left;
+}
+table tr td:nth-child(3){
+    text-align: right;
+}
+
+ span{
+    color: cyan;
+}
+
+tr td{
+    padding: 0.5rem;
+}
+/* five */
+footer{
+    background-color: rgb(27, 27, 26);
+    position: sticky;
+    bottom: 1px;
+    padding: 1rem 0;
+    color: #ffffffb2;
+}
+
+footer ul{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 0;
+    
+}
+
+footer ul li{
+    list-style: none;
+    font-size: x-small;
+    
+}
+
+footer ul li:nth-child(3){
+    align-self: center;
+    border: 1px solid transparent;
+    padding: 9px 9.5px;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: purple;
+}
+ .cycle a:hover{
+    color: #fff;
+}
+
+footer ul li a{
+    text-decoration: none;
+    color: #dacccc69;
+}
+footer ul li a:hover{
+    color: rgb(216, 8, 216);
+}
+.fa-house{
+    margin-inline: 0.4rem;
+    margin-bottom: 0.3rem;
+}
+.fa-arrow-trend-up{
+    margin-inline: 0.4rem;
+    margin-bottom: 0.3rem;
+}
+
+.fa-credit-card{
+    margin-inline: 0.4rem;
+    margin-bottom: 0.3rem;
+}
+.fa-gear{
+    margin-inline: 0.5rem;
+    margin-bottom: 0.3rem;
+}
