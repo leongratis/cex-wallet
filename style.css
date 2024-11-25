@@ -6,7 +6,8 @@
 .container{
     background-color: black;
     color: #fff;
-    padding-inline: 0.8rem
+    padding-inline: 0.6rem;
+    padding-top: 0.2rem;
 }
 
 /* one */
@@ -53,9 +54,6 @@ main a{
 }
 main a:hover{
     cursor: pointer;
-}
-
-main a:focus{
     background-color: rgba(102, 100, 100, 0.863);
 }
 
@@ -190,16 +188,16 @@ footer ul{
 
 footer ul li{
     list-style: none;
-    font-size: x-small;
+    font-size: small;
     
 }
 
 footer ul li:nth-child(3){
     align-self: center;
     border: 1px solid transparent;
-    padding: 9px 9.5px;
-    width: 30px;
-    height: 30px;
+    padding: 9px 8.7px;
+    width: 35px;
+    height: 35px;
     border-radius: 100%;
     background-color: purple;
 }
@@ -214,6 +212,10 @@ footer ul li a{
 footer ul li a:hover{
     color: rgb(216, 8, 216);
 }
+.fa-solid{
+    font-size: 1rem;
+}
+
 .fa-house{
     margin-inline: 0.4rem;
     margin-bottom: 0.3rem;
